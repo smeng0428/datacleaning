@@ -54,4 +54,4 @@ cleanData3 <- cleanData2 %>%
   summarize(across(.cols=everything(),mean))
 
 ##export the dataset
-write.csv(cleanData3, "CleanData.csv", row.names = FALSE)
+write.txt(cleanData3, "CleanData.txt", row.names = FALSE)
